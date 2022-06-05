@@ -1,0 +1,58 @@
+/* PROFILE */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* CONNEXION ET INSCRIPTION */
+
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.card {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.card:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 270px;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, #00f2fe, #4facfe);
+    
+}
+
+
+.main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 250px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .image {
+    width: 110px;
+    height: 110px;
+    border-radius: 50px;
+}
